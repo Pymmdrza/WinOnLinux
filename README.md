@@ -1,6 +1,7 @@
 # WinOnLinux
 
-Run and Install Windows OS on Linux Terminal with KVM
+Run and Install Windows OS on Linux Terminal With this script, you can easily install any type of operating system on all Debian-based Linux systems and manage your resources, and you can also use this trick on all cloud systems. At the end, you can connect easily just by entering the IP address of the desired server in the remote desktop as long as the executive command is open.
+
 
 ```bash
 git clone https://github.com/Pymmdrza/WinOnLinux.git
