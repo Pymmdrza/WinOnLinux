@@ -5,9 +5,8 @@ set -e
 # Function to download and extract vkvm.tar.gz
 download_and_extract() {
     echo "Downloading and extracting vkvm.tar.gz..."
-    curl -fL https://github.com/Pymmdrza/WinOnLinux/raw/main/vkvm.tar.gz -o /tmp/vkvm.tar.gz
-    tar -xzvf /tmp/vkvm.tar.gz -C /tmp
-    rm /tmp/vkvm.tar.gz
+    wget -qO- /tmp https://github.com/Pymmdrza/WinOnLinux/raw/main/vkvm.tar.gz | tar xvz -C /tmp
+
 }
 
 # Function to download Windows ISO
