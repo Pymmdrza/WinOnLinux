@@ -13,7 +13,7 @@ cd WinOnLinux
 You can run the entire process using the provided shell script. This script will download and extract the necessary files, download the Windows ISO, list available drives, ask for your confirmation, and start QEMU.
 
 ```bash
-chmod +x iINSTALL.sh
+chmod +x INSTALL.sh
 ./INSTALL.sh
 ```
 
