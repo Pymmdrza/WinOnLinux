@@ -38,7 +38,7 @@ select_drive() {
 # Function to run QEMU with the selected drive
 run_qemu() {
     echo "Starting QEMU with the selected drive..."
-    ./qemu-system-x86_64 -net nic -net user,hostfwd=tcp::3389-:3389 -m 10000M -localtime -enable-kvm -cpu core2duo,+nx -smp 2 -usbdevice tablet -k en-us -cdrom /tmp/win10.iso -hda $drive -vnc :1 -boot d
+    ./tmp/qemu-system-x86_64 -net nic -net user,hostfwd=tcp::3389-:3389 -m 10000M -localtime -enable-kvm -cpu core2duo,+nx -smp 2 -usbdevice tablet -k en-us -cdrom /tmp/win10.iso -hda $drive -vnc :1 -boot d
 }
 
 # Main script execution
