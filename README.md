@@ -16,6 +16,9 @@ You can run the entire process using the provided shell script. This script will
 chmod +x INSTALL.sh
 ./INSTALL.sh
 ```
+>[!NOTE]
+>**Example** :
+>Please enter the name of the drive you want to use (e.g., /dev/sda): `/dev/nvme2n1p2`
 
 ## Manual 
 
